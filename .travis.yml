@@ -1,6 +1,10 @@
 sudo: required
 dist: trusty
 
+language: python
+virtualenv:
+  system_site_packages: true
+
 python:
   - 2.7.17
 
