@@ -1,14 +1,14 @@
 #!/bin/bash -xve
 
-#required package
+#required packages
 pip install catkin_pkg
 pip install empy
-pip install pyyml
+pip install pyyaml
 pip install rospkg
 
 #ros install
 cd ..
-git clone https://github.com/rhuichiueda/ros_setup_scripts_Ubuntu14.04_server.git
+git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu14.04_server.git
 cd ./ros_setup_scripts_Ubuntu14.04_server
 bash ./step0.bash
 bash ./step1.bash
