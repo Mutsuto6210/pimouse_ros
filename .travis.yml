@@ -5,8 +5,5 @@ language: python
 virtualenv:
   system_site_packages: true
 
-python:
-  - 2.7.17
-
 script:
   - bash -xve ./test/travis_ros_install.bash
