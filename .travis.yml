@@ -3,7 +3,6 @@ dist: trusty
 
 before_script:
   - pip install -U pip
-  - pip-compile --dry-run requirements.in | diff -u requirements.txt -
 
 script:
   - bash -xve ./test/travis_ros_install.bash
