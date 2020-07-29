@@ -2,4 +2,5 @@ sudo: required
 dist: trusty
 
 script:
+  - "pip freeze"
   - bash -xve ./test/travis_ros_install.bash
